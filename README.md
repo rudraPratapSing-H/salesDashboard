@@ -50,6 +50,7 @@ This project leverages the following tools and libraries for data processing and
 ### 1. The Pareto of Profitability
 Profit is **highly concentrated**. The top five products are responsible for **~74% of total profit** despite representing only **~33% of revenue**. Conversely, three specific products are "silent bleeders," contributing to a **10% negative profit** impact.
 <br>
+
 *Profit vs Revenue for Key Products*
 ![Product graph](images/profitvsRevenue.png)
 
@@ -57,6 +58,7 @@ Profit is **highly concentrated**. The top five products are responsible for **~
 ### 2. The Discount Trap
 Discounts are currently misaligned with consumer behavior. Our analysis shows that discounting strategies reduce the average profit per product by **~23%** but fail to produce a statistically meaningful uplift in sales volume. This suggests a need to pivot from blanket discounts to targeted loyalty incentives.
 <br>
+
 *Average Profit and Volume per order for no-discount and discount*
 <p align="center">
   <img src="images/discountProfit.png" width="45%" />
@@ -68,6 +70,7 @@ Discounts are currently misaligned with consumer behavior. Our analysis shows th
 *   **South Region Dominance:** The South region leads in profitability per order, reinforcing that margin efficiency—not just aggregate demand—is the primary growth lever.
 *   **Digital Adoption:** **UPI** accounts for **~52%** of all organic transactions, signaling a shift towards digital-first payment behaviors that can be leveraged for checkout optimization.
 <br>
+
 *Revenue-profit bar graph for regions and payment options*
 <p align="center">
   <img src="images/region.png" width="45%" />

@@ -18,10 +18,9 @@ The analysis is based on a relational dataset consisting of two core tables:
 
 ### Database Schema
 ![Orders Table Schema](images/orders.png)
-*Figure 1: Schema of the Orders Transaction Table*
+
 
 ![Products Table Schema](images/products.png)
-*Figure 1: Schema of the Orders Transaction Table*
 
 1.  **Order Transaction Table:** 5,000 granular transaction entries containing sales, quantity, discounts, and customer details.
 2.  **Product Master Table:** 20 unique product entries with cost and category metadata.

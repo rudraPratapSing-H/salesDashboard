@@ -20,7 +20,7 @@ The analysis is based on a relational dataset consisting of two core tables:
 ![Orders Table Schema](images/orders.png)
 *Figure 1: Schema of the Orders Transaction Table*
 
-![Products Table Schema](images/producst.png)
+![Products Table Schema](images/products.png)
 *Figure 1: Schema of the Orders Transaction Table*
 
 1.  **Order Transaction Table:** 5,000 granular transaction entries containing sales, quantity, discounts, and customer details.
@@ -28,19 +28,21 @@ The analysis is based on a relational dataset consisting of two core tables:
 
 **Methodology:**
 *   **Data Cleaning:** Handled missing values, standardized categorical variables, and validated data types.
+You can check the sql code of data cleaning here:- 
+
 *   **Data Modeling:** Merged transaction and product tables to calculate net profit, profit margins, and cost of goods sold (COGS).
-*   **Exploratory Data Analysis (EDA):** Performed univariate and multivariate analysis to detect outliers and distribution patterns.
+*   **Exploratory Data Analysis (EDA):** Performed univariate and multivariate analysis to detect outliers and distribution patterns.   
+You can check the sql code of EDA here :- 
+
 *   **Feature Engineering:** derived metrics such as `Net Margin %`, `Discount Impact Ratio`, and `Profit Contribution`.
 
 ## 🛠️ Tech Stack
 This project leverages the following tools and libraries for data processing and visualization:
 
-*   ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-*   ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458) - Data manipulation and aggregation.
-*   ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c) - Generic plotting.
-*   ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Viz-green) - Advanced statistical visualizations.
-*   ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange) - Interactive analysis environment.
-*   *(Optional: PowerBI/Tableau for dashboarding if applicable)*
+
+*   ![Excel](https://img.shields.io/badge/Excel-Spreadsheet-217346) - Data storage and preliminary analysis.
+*   ![SQL](https://img.shields.io/badge/SQL-Querying-orange) - Data extraction and management.
+
 
 ## 🗝️ Key Findings & Insights
 
@@ -56,34 +58,6 @@ Discounts are currently misaligned with consumer behavior. Our analysis shows th
 *   **South Region Dominance:** The South region leads in profitability per order, reinforcing that margin efficiency—not just aggregate demand—is the primary growth lever.
 *   **Digital Adoption:** **UPI** accounts for **~52%** of all organic transactions, signaling a shift towards digital-first payment behaviors that can be leveraged for checkout optimization.
 
-## ⚙️ How to Run
-To reproduce this analysis locally:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/project-one.git
-    cd project-one
-    ```
-
-2.  **Set up the environment:**
-    Ensure you have Python installed. It is recommended to use a virtual environment.
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Run the Jupyter Notebook:**
-    Launch the notebook server and open `analysis.ipynb` (or the relevant notebook file).
-    ```bash
-    jupyter notebook
-    ```
-
-4.  **Load Data:**
-    Ensure `Book1.xlsx` is placed in the `data/` folder (or update the path in the notebook).
-
-## 🔮 Future Work
-*   **Predictive Modeling:** Implement regression models to forecast sales based on discount permutations.
-*   **Basket Analysis:** Use Association Rule Mining (Apriori) to bundle high-margin and low-margin products.
-*   **Segmented Marketing:** Develop customer clusters based on purchasing power and region to tailor marketing campaigns.
 
 ---
-*Author: [Your Name]*
+*Author: [Rudra pratap Singh]*

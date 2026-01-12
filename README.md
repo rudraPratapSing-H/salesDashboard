@@ -17,10 +17,10 @@ In a high-volume retail environment, top-line revenue often masks underlying ine
 The analysis is based on a relational dataset consisting of two core tables:
 
 ### Database Schema
-![Orders Table Schema](images/orders.png)
-
-
-![Products Table Schema](images/products.png)
+<p align="center">
+  <img src="images/orders.png" width="45%" />
+  <img src="images/products.png" width="45%" />
+</p>
 
 1.  **Order Transaction Table:** 5,000 granular transaction entries containing sales, quantity, discounts, and customer details.
 2.  **Product Master Table:** 20 unique product entries with cost and category metadata.
@@ -49,13 +49,18 @@ This project leverages the following tools and libraries for data processing and
 
 ### 1. The Pareto of Profitability
 Profit is **highly concentrated**. The top five products are responsible for **~74% of total profit** despite representing only **~33% of revenue**. Conversely, three specific products are "silent bleeders," contributing to a **10% negative profit** impact.
-
+![Product graph](images/profitvsRevenue.png)
 ### 2. The Discount Trap
 Discounts are currently misaligned with consumer behavior. Our analysis shows that discounting strategies reduce the average profit per product by **~23%** but fail to produce a statistically meaningful uplift in sales volume. This suggests a need to pivot from blanket discounts to targeted loyalty incentives.
 
 ### 3. Regional & Operational Efficiency
 *   **South Region Dominance:** The South region leads in profitability per order, reinforcing that margin efficiency—not just aggregate demand—is the primary growth lever.
 *   **Digital Adoption:** **UPI** accounts for **~52%** of all organic transactions, signaling a shift towards digital-first payment behaviors that can be leveraged for checkout optimization.
+
+<p align="center">
+  <img src="images/region.png" width="45%" />
+  <img src="images/payment.png" width="45%" />
+</p>
 
 
 ---
